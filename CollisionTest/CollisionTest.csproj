@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>CollisionTest</AssemblyName>
+    <RootNamespace>CollisionTest</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SFML.Graphics" Version="2.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+  	<None Include="Fonts/**" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>
